@@ -5,19 +5,21 @@
     "author": "Matthew Little",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-cryptonote-pool.git"
+        "url": "https://github.com/hashcash/node-cryptonote-pool.git"
     },
     "dependencies": {
-        "bignum": "0.12.5",
         "async": "1.5.2",
-        "redis": "0.12.1",
-        "cli-color": "1.1.0",
-        "dateformat": "1.0.12",
         "base58-native": "0.1.4",
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/Snipa22/node-cryptonote-util#xmr-Nan-2.0"
+        "bignum": "0.12.5",
+        "cli-color": "1.1.0",
+        "cryptonote-util": "git://github.com/hashcash/node-cryptonote-util#xmr-Nan-2.0",
+        "dateformat": "1.0.12",
+        "express": "^4.16.2",
+        "multi-hashing": "git://github.com/hashcash/node-multi-hashing.git#e1ef164b8589fc5e7108d214b536c88b566ebe3b",
+        "redis": "0.12.1",
+        "ws": "^4.0.0"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=8.9"
     }
 }
